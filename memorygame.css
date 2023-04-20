@@ -1,0 +1,79 @@
+h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+background-color:aquamarine;
+text-align: center;
+}
+
+#startBtn {
+    border-radius: 30%;
+    background: #b4b4b4;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Pacifico;
+}
+
+h3 {
+    font-family: Pacifico;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+#restart {
+    text-align: center;
+    border-radius: 30%;
+    background: #818589;
+    font-size: 20px;
+    padding: 20px;
+    font-family: Pacifico;
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: #899499;
+}
+
+
+.card.done:hover {
+    box-shadow: none;
+}
+
+.card:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+    box-sizing: border-box;
+}
+
+.red {
+    background-color: red
+}
+.blue {
+    background-color: blue
+}
+.green {
+    background-color: green
+}
+.purple {
+    background-color: purple
+}
+.pink {
+    background-color: pink
+}
+
+.color-hidden {
+    background-color: rgba(238, 238, 238, 0.933);
+}
+
+.card:click {
+    display: ;
+}

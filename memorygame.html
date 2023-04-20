@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="memorygame.css">
+` <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Memory Game</h1>
+    
+    <h3><div id="high-score" style=width: 25%; float:left;>High Score:</div>
+        <div id="score" style=width: 25%; float:left>Score:</div></h3>
+    
+    <input id ="startBtn" type="button" value="START" onclick="showDiv()" />
+    <div id="start" style="display:none;"</div>
+    <div id ="game-board">
+    <div class="row">
+    <div 
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div 
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div  
+    class="card color-hidden"onClicked(event)
+    onclick="onClicked(event)"></div>
+    <div 
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div  
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    </div>
+    <div class="row">
+    <div  
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div  
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div  
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    <div
+    class="card color-hidden"
+    onclick="onClicked(event)"></div>
+    </div>
+    </div> 
+    <input id="resetBtn" type="button" value="RESET" onclick="reset(event)">
+</div>
+</div>
+
+    <script src="memorygame.js"></script>
+</body>
+</html>
